@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import type { VFC } from 'react'
 import { SEO } from '@components/common'
 
