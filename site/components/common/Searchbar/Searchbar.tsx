@@ -21,6 +21,10 @@ const Searchbar: FC<Props> = ({ className, id = 'search' }) => {
     if (e.key === 'Enter') {
       const q = e.currentTarget.value
 
+      Tinybird.trackEvent('search', {
+        value: q
+      })
+
       router.push(
         {
           pathname: `/search`,
