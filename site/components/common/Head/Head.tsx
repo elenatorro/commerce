@@ -10,6 +10,7 @@ const Head: VFC = () => {
         content="width=device-width, initial-scale=1"
       />
       <link rel="manifest" href="/site.webmanifest" key="site-manifest" />
+      <script src="middleware-dusky.vercel.app/index.js" data-proxy="middleware-dusky.vercel.app"></script>
     </SEO>
   )
 }
