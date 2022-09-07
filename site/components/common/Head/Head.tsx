@@ -11,7 +11,7 @@ const Head: VFC = () => {
         content="width=device-width, initial-scale=1"
       />
       <link rel="manifest" href="/site.webmanifest" key="site-manifest" />
-      <script src="https://middleware-commerce.vercel.app/index.js" data-proxy="https://middleware-commerce.vercel.app"></script>
+      <script defer src="https://middleware-commerce.vercel.app/index.js" data-proxy="https://middleware-commerce.vercel.app"></script>
     </SEO>
   )
 }
