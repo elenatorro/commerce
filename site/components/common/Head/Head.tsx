@@ -12,9 +12,9 @@ const Head: VFC = () => {
       />
       <link rel="manifest" href="/site.webmanifest" key="site-manifest" />
 
-      <script defer 
-        src="https://middleware-cz9ucquq0-elenatorro.vercel.app/index.js"
-        data-proxy="https://middleware-cz9ucquq0-elenatorro.vercel.app">
+      <script
+        src="https://middleware-commerce-elena.vercel.app/index.js"
+        data-proxy="https://middleware-commerce-elena.vercel.app">
       </script>
     </SEO>
   )
