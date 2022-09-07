@@ -13,8 +13,8 @@ const Head: VFC = () => {
       <link rel="manifest" href="/site.webmanifest" key="site-manifest" />
 
       <script
-        src="https://middleware-commerce-elena.vercel.app/index.js"
-        data-proxy="https://middleware-commerce-elena.vercel.app">
+        src="https://middleware-commerce.vercel.app/index.js"
+        data-proxy="https://middleware-commerce.vercel.app">
       </script>
     </SEO>
   )
